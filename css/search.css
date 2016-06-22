@@ -34,15 +34,15 @@
     float: left;
     border-right: 1px solid #f4f4f4;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .search-senpai {
-    padding-right: 10px;
+    margin-bottom: 20px;
 }
 
 .search-senpai a {
     text-decoration: none;
-    color: #bcbcbc;
 }
 
 .text-line-height {
@@ -67,17 +67,15 @@
 }
 
 .search-senpai-number {
-    font-size: 10px;
     float: right;
-    color: #bcbcbc;
 }
 
 .data-statistic {
-    padding-right: 25px;
 }
 
 .data-statistic-text-box {
     padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 .data-statistic-thank-border {
@@ -92,14 +90,8 @@
     color: #feda53; 
 }
 
-.data-statistic-small-text {
-    font-size: 10px;
-    color: #bcbcbc;
-}
-
 .data-statistic-number {
     float: right;
-    color: #bcbcbc;
 }
 
 /* search-body-content css */
@@ -107,6 +99,7 @@
     float: left;
     padding-right: 18px;
     padding-left: 18px;
+    background-color: #fcfcfe;
 }
 
 .view-type {
@@ -216,8 +209,16 @@
     width: 624px;
 }
 
+.font-size10 {
+    font-size: 10px;
+}
+
 .font-size12 {
     font-size: 12px;
+}
+
+.font-size20 {
+    font-size: 20px;
 }
 
 .color-grey {
