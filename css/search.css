@@ -85,6 +85,8 @@ body {
 .search-body-left {
     float: left;
     border-right: 1px solid #f4f4f4;
+    border-left: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
     padding-left: 10px;
     padding-right: 10px;
     background-color: #ffffff;
@@ -285,6 +287,8 @@ body {
 .search-body-right {
     float: left;
     border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -358,9 +362,14 @@ body {
 .copy-right {
     padding-top: 20px;
 }
+
 /* share css */
 .overflow-auto {
     overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
 }
 
 .sidebar-width {
@@ -429,4 +438,9 @@ body {
 
 .select-initial {
     display: inline-block;
+}
+
+.equal-height-column {
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
 }
