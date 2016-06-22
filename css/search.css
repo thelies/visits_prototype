@@ -71,6 +71,8 @@
 
 /* search-body css */
 .search-body {
+    border-top: 1px solid #f4f4f4;
+    background-color: #fcfcfe;
 }
 
 /* search-body-left css */
@@ -79,6 +81,8 @@
     border-right: 1px solid #f4f4f4;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #ffffff;
+    height: 100%;
 }
 
 .search-senpai {
@@ -186,7 +190,6 @@
     float: left;
     padding-right: 18px;
     padding-left: 18px;
-    background-color: #fcfcfe;
 }
 
 .view-type {
@@ -274,7 +277,6 @@
 
 /* search-body-right css */
 .search-body-right {
-    background-color: #fcfcfe;
     float: left;
     border-left: 1px solid #f4f4f4;
     padding-left: 10px;
