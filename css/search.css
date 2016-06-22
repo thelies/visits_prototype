@@ -285,11 +285,14 @@
     float: right;
 }
 
-/* share css */
-.footer {
-    border: 1px solid red;
+.footer-link {
+    padding: 3px 0;
 }
 
+.copy-right {
+    padding-top: 20px;
+}
+/* share css */
 .overflow-auto {
     overflow: auto;
 }
