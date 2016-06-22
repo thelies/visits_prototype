@@ -1,3 +1,9 @@
+@charset "utf-8";
+/* 日本語 */
+
+body {
+    font-family: "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
 .search-container {
     width: 1024px;
     padding-left: 0px;
