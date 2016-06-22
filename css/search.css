@@ -83,6 +83,7 @@ body {
 
 /* search-body-left css */
 .search-body-left {
+    padding-top: 20px;
     float: left;
     border-right: 1px solid #f4f4f4;
     border-left: 1px solid #f4f4f4;
@@ -195,6 +196,7 @@ body {
 }
 /* search-body-content css */
 .search-body-center {
+    padding-top: 20px;
     float: left;
     padding-right: 18px;
     padding-left: 18px;
@@ -285,6 +287,7 @@ body {
 
 /* search-body-right css */
 .search-body-right {
+    padding-top: 20px;
     float: left;
     border-left: 1px solid #f4f4f4;
     border-right: 1px solid #f4f4f4;
