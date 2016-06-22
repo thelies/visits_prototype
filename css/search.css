@@ -1,0 +1,225 @@
+.search-container {
+    width: 1024px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* search-header css */
+.search-header {
+    background-color: #d3f7ea;
+    overflow: auto;
+}
+
+.search-header-left {
+    float: left;
+}
+
+.search-header-center {
+    float: left;
+}
+
+.search-header-right {
+    float: left;
+}
+
+/* search-body css */
+.search-body {
+    overflow: auto;
+}
+
+/* search-body-left css */
+.search-body-left {
+    float: left;
+    border-right: 1px solid #f4f4f4;
+    padding-left: 10px;
+}
+
+.search-senpai {
+    padding-right: 10px;
+}
+
+.search-senpai a {
+    text-decoration: none;
+    color: #bcbcbc;
+}
+
+.text-line-height {
+    line-height: 1.1;
+}
+
+.search-text-box {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search-senpai-text {
+    color: #1fb4e3;
+}
+
+.search-senpai-link {
+    float: left;
+}
+
+.search-senpai-link img {
+    vertical-align: 3px;
+}
+
+.search-senpai-number {
+    font-size: 10px;
+    float: right;
+    color: #bcbcbc;
+}
+
+.data-statistic {
+    padding-right: 25px;
+}
+
+.data-statistic-text-box {
+    padding-left: 5px;
+}
+
+.data-statistic-thank-border {
+    border-left: 3px solid #feda53;
+}
+
+.data-statistic-link {
+    float: left;
+}
+
+.data-statistic-thank {
+    color: #feda53; 
+}
+
+.data-statistic-small-text {
+    font-size: 10px;
+    color: #bcbcbc;
+}
+
+.data-statistic-number {
+    float: right;
+    color: #bcbcbc;
+}
+
+/* search-body-content css */
+.search-body-center {
+    float: left;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.view-type {
+    margin: 5px;
+}
+
+.view-objects-list {
+    background-color: #ffffff;
+}
+
+.view-object {
+    background-color: #ffffff;
+    width: 188px;
+    margin: 3px;
+    float: left;
+    border-radius: 15px;
+    border: 1px solid #f4f4f4;
+}
+
+.view-object-cover {
+    position: relative;
+    overflow: auto;
+    /*border-radius: 25px 25px 0 0;*/
+}
+
+.view-object-cover-image img {
+    width: 100%;
+}
+
+.view-object-cover-text {
+    color: #ffffff;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.view-object-name {
+    float: left;
+}
+
+.view-object-ob {
+    float: right;
+}
+
+.view-object-body {
+    padding-left: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.view-object-university {
+    line-height: 1.2;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.view-object-company {
+    line-height: 1.2;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.view-object-footer {
+}
+
+.view-object-footer-text {
+    width: 100%;
+    padding: 10px;
+}
+
+.view-object-likebt {
+    float: left;
+}
+
+.view-object-likeicon {
+    float: right;
+}
+
+/* search-body-right css */
+.search-body-right {
+    background-color: #fcfcfe;
+    float: left;
+    border-left: 1px solid #f4f4f4;
+}
+
+/* share css */
+.search-senpai,
+.data-statistic,
+.profile-complete,
+.open-cafe,
+.adverts,
+.joining-event,
+.footer {
+    border: 1px solid red;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.sidebar-width {
+    width: 200px;
+}
+
+.center-width {
+    width: 624px;
+}
+
+.font-size12 {
+    font-size: 12px;
+}
+
+.color-grey {
+    color: #bcbcbc;
+}
