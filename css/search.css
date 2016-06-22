@@ -242,7 +242,6 @@
 }
 
 .open-cafe-master-name {
-    font-weight: bold;
 }
 
 .open-cafe-status {
@@ -256,13 +255,37 @@
 
 .read-more {
     padding-top: 15px;
+    padding-bottom: 30px;
     text-align: right;
 }
 
+.adverts {
+    padding-bottom: 30px;
+}
+
+.joining-event {
+    padding-bottom: 30px;
+}
+
+.joining-event-title {
+    padding-bottom: 10px;
+}
+
+.joining-event-info {
+    background-color: #e3f5fb;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.joining-event-time {
+    float: left;
+}
+
+.joining-event-link {
+    float: right;
+}
+
 /* share css */
-.open-cafe,
-.adverts,
-.joining-event,
 .footer {
     border: 1px solid red;
 }
@@ -291,6 +314,10 @@
     font-size: 12px;
 }
 
+.font-size15 {
+    font-size: 15px;
+}
+
 .font-size20 {
     font-size: 20px;
 }
@@ -303,6 +330,10 @@
     color: #bcbcbc;
 }
 
+.color-light-black {
+    color: #6c6c76;
+}
+
 .line-height1_1 {
     line-height: 1.1;
 }
@@ -313,4 +344,12 @@
 
 .decorate-none {
     text-decoration: none;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.clear-both {
+    clear: both;
 }
