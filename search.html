@@ -14,14 +14,21 @@
             <!-- search-header -->
             <div class="search-header overflow-auto">
                 <div class="search-header-left sidebar-width">
-                    header left
-                    日本語
+                    <a href="#"><img src="images/navi_logo.png"></img></a>
                 </div>
                 <div class="search-header-center center-width">
-                    header center
+                    <input class="style-placeholder input-search" type="text" name="keyword" placeholder="キーワードで検索"></input><button class="btn-initial btn-search"><img src="images/navi_searchicon.png"></img></button>
+                    <select class="select-initial select-search">
+                        <option value="xxx">絞り込み</option>
+                        <option value="xxx">絞り込み</option>
+                        <option value="xxx">絞り込み</option>
+                    </select>
                 </div>
                 <div class="search-header-right sidebar-width">
-                    header right
+                    <span class="search-header-right-navi"><a href="#"><img src="images/navi_hanako.png"></img></a></span>
+                    <span class="search-header-right-navi"><a href="#"><img src="images/navi_chat.png"></img></a></span>
+                    <span class="search-header-right-navi"><a href="#"><img src="images/navi_notification.png"></img><img src="images/navi_badge.png" class="navi-badge"></img></a></span>
+                    <span class="search-header-right-navi"><a href="#"><img src="images/navi_setting.png"></img></a></span>
                 </div>
             </div>
             <!-- end search-header -->
@@ -115,7 +122,7 @@
                                     <span class="font-size12 color-grey">充実度</span>
                                 </a>
                             </span>
-                            <span class="data-statistic-number color-grey"><button>編集</button></span>
+                            <span class="data-statistic-number color-grey"><button class="btn-initial btn-edit font-size11">編集</button></span>
                         </div>
                         <!-- end data-statistic-text-box -->
                         <div class="profile-complete-percent">
@@ -129,10 +136,10 @@
                 <div class="search-body-center center-width">
                     <div class="view-type">
                         <div class="view-type-dropdown">
-                            <select>
-                                <option value="1">option1</option>
-                                <option value="2">option2</option>
-                                <option value="3">option3</option>
+                            <select class="select-initial select-filter">
+                                <option value="1">プロフィール閲覧</option>
+                                <option value="2">コンタクト可能</option>
+                                <option value="3">内定者</option>
                             </select>
                         </div>
                     </div>

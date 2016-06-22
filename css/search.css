@@ -8,20 +8,65 @@
 
 /* search-header css */
 .search-header {
-    background-color: #d3f7ea;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .search-header-left {
     float: left;
+    padding-left: 10px;
 }
 
 .search-header-center {
     float: left;
+    text-align: center;
+}
+
+.style-placeholder::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    text-align: center;
+}
+.style-placeholder:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-align: center;
+}
+.style-placeholder::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-align: center;
+}
+.style-placeholder:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    text-align: center;
+}
+
+.input-search {
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #bcbcbc;
+}
+
+.btn-search {
+    background-color: #ffffff;
+    padding: 0;
+    border: none;
+}
+
+.select-search {
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+    height: 30px;
 }
 
 .search-header-right {
+    text-align: center;
     float: left;
+    padding-right: 10px;
+}
+
+.search-header-right-navi {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navi-badge {
+    vertical-align: 10px;
 }
 
 /* search-body css */
@@ -54,7 +99,7 @@
 }
 
 .search-senpai-link img {
-    vertical-align: 3px;
+    vertical-align: 5px;
 }
 
 .search-senpai-number {
@@ -84,6 +129,13 @@
 
 .data-statistic-number {
     float: right;
+}
+
+.btn-edit {
+    background-color: #ffffff;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 .data-statistic-visits-border {
@@ -138,7 +190,13 @@
 }
 
 .view-type {
-    margin: 5px;
+    margin: 5px 5px 15px 5px;
+}
+
+.select-filter {
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+    height: 30px;
 }
 
 .view-objects-list {
@@ -355,4 +413,12 @@
 
 .clear-both {
     clear: both;
+}
+
+.btn-initial {
+    display: inline-block;
+}
+
+.select-initial {
+    display: inline-block;
 }
